@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Api/BDStore.Api.csproj": {}
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {}
   },
   "projects": {
-    "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Api/BDStore.Api.csproj": {
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Api/BDStore.Api.csproj",
+        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
         "projectName": "BDStore.Api",
-        "projectPath": "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Api/BDStore.Api.csproj",
-        "packagesPath": "/home/brunodias/.nuget/packages/",
-        "outputPath": "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Api/obj/",
+        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
+        "packagesPath": "/Users/brunodias/.nuget/packages/",
+        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/brunodias/.nuget/NuGet/NuGet.Config"
+          "/Users/brunodias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -38,10 +38,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -66,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

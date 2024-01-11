@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Domain/BDStore.Domain.csproj": {}
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj": {}
   },
   "projects": {
-    "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Domain/BDStore.Domain.csproj": {
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Domain/BDStore.Domain.csproj",
+        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj",
         "projectName": "BDStore.Domain",
-        "projectPath": "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Domain/BDStore.Domain.csproj",
-        "packagesPath": "/home/brunodias/.nuget/packages/",
-        "outputPath": "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Domain/obj/",
+        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj",
+        "packagesPath": "/Users/brunodias/.nuget/packages/",
+        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/brunodias/.nuget/NuGet/NuGet.Config"
+          "/Users/brunodias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

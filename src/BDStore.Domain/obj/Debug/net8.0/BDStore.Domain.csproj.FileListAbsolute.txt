@@ -1,0 +1,5 @@
+/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.AssemblyInfoInputs.cache
+/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.AssemblyInfo.cs
+/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.csproj.CoreCompileInputs.cache
+/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.sourcelink.json

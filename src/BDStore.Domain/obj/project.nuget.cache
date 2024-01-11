@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lySEFT1SvmHoboHlf2OOJ+aC0cWJUYH1CFOqYCjaO1dyka6HEUVCEy9Yn4+HCGrGa3QkZpz8GzJik15ivYtHpA==",
+  "dgSpecHash": "CSzGieKpO/A2oxtQTLiuI0+1T0ok95D9vdGvsD8azxen4in5heAlDJIu/QhOn5fzIRPVFjnXUfnzvI7sc0x88w==",
   "success": true,
-  "projectFilePath": "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Domain/BDStore.Domain.csproj",
+  "projectFilePath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
