@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "PNA1uxjqAAuFRR17xbpsEWw4hmgDZJadyIq0vx2jw3wqfaM8i46cric3l6uPGN2hdI5vwFz+mAry9fUv8qK5BQ==",
+  "success": true,
+  "projectFilePath": "/home/brunodias/Documents/Programacao/C#/BDStore/src/BDStore.Api/BDStore.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/brunodias/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "/home/brunodias/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/brunodias/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/brunodias/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/brunodias/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/brunodias/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/brunodias/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
