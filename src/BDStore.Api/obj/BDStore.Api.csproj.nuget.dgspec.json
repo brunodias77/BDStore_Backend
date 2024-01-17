@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {}
+    "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {}
   },
   "projects": {
-    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {
+    "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
+        "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
         "projectName": "BDStore.Api",
-        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
-        "packagesPath": "/Users/brunodias/.nuget/packages/",
-        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/obj/",
+        "projectPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
+        "packagesPath": "/home/brunodias/.nuget/packages/",
+        "outputPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/brunodias/.nuget/NuGet/NuGet.Config"
+          "/home/brunodias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -38,6 +38,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -62,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
