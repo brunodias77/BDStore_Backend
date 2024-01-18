@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eUK05p1ea0btAFc+U5bbbIkdTDbBSRWHrLSf2I+xPqU=",
+  "Source": "BDStore.Api",
+  "BasePath": "_content/BDStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

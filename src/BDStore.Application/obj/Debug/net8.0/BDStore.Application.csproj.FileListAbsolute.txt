@@ -10,3 +10,19 @@
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/refint/BDStore.Application.dll
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.pdb
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/ref/BDStore.Application.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/refint/BDStore.Application.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.pdb
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/bin/Debug/net8.0/BDStore.Application.deps.json
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/bin/Debug/net8.0/BDStore.Application.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/bin/Debug/net8.0/BDStore.Application.pdb
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/bin/Debug/net8.0/BDStore.Domain.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/bin/Debug/net8.0/BDStore.Domain.pdb
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.csproj.AssemblyReference.cache
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.AssemblyInfoInputs.cache
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.AssemblyInfo.cs
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.csproj.CoreCompileInputs.cache
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.sourcelink.json
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/BDStore.Application.csproj.CopyComplete
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/Debug/net8.0/ref/BDStore.Application.dll

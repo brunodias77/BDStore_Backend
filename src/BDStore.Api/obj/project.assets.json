@@ -284,6 +284,33 @@
             "related": ".xml"
           }
         }
+      },
+      "BDStore.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BDStore.Domain": "1.0.0",
+          "MediatR": "12.2.0"
+        },
+        "compile": {
+          "bin/placeholder/BDStore.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BDStore.Application.dll": {}
+        }
+      },
+      "BDStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MediatR": "12.2.0"
+        },
+        "compile": {
+          "bin/placeholder/BDStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BDStore.Domain.dll": {}
+        }
       }
     }
   },
@@ -866,10 +893,21 @@
         "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
+    },
+    "BDStore.Application/1.0.0": {
+      "type": "project",
+      "path": "../BDStore.Application/BDStore.Application.csproj",
+      "msbuildProject": "../BDStore.Application/BDStore.Application.csproj"
+    },
+    "BDStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BDStore.Domain/BDStore.Domain.csproj",
+      "msbuildProject": "../BDStore.Domain/BDStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BDStore.Application >= 1.0.0",
       "MediatR >= 12.2.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.1",
       "Microsoft.AspNetCore.OpenApi >= 8.0.1",
@@ -900,7 +938,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
+              "projectPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

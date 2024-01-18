@@ -10,3 +10,15 @@
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/refint/BDStore.Infra.dll
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.pdb
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/ref/BDStore.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/bin/Debug/net8.0/BDStore.Infra.deps.json
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/bin/Debug/net8.0/BDStore.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/bin/Debug/net8.0/BDStore.Infra.pdb
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.AssemblyInfoInputs.cache
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.AssemblyInfo.cs
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.csproj.CoreCompileInputs.cache
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.sourcelink.json
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/refint/BDStore.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.pdb
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/ref/BDStore.Infra.dll

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "slFwUfhy4g2Ao4BU/6fxPTf6DgLrt2hdiSOI6bmE2N6p2CeuoxJl+VWtYqMAdxfetsoiwRcC1bQS9m1STNBbnQ==",
+  "dgSpecHash": "SIVXjZxCsf6am8aMKKq/xvwk0R/gh2fEdJ9rxUGfVodE27vt/n7Sk86pVvXriXrG9/mRT7wa7xaEIZTLOTYzHg==",
   "success": true,
   "projectFilePath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/brunodias/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/brunodias/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/brunodias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
