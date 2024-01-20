@@ -22,3 +22,11 @@
 /home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/refint/BDStore.Infra.dll
 /home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.pdb
 /home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/ref/BDStore.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/bin/Debug/net8.0/BDStore.Infra.runtimeconfig.json
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/bin/Debug/net8.0/BDStore.Application.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/bin/Debug/net8.0/BDStore.Domain.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/bin/Debug/net8.0/BDStore.Application.pdb
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/bin/Debug/net8.0/BDStore.Domain.pdb
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.csproj.AssemblyReference.cache
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.csproj.CopyComplete
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/obj/Debug/net8.0/BDStore.Infra.genruntimeconfig.cache

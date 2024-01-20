@@ -17,6 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BDStore.Application\BDStore.Application.csproj" />
+    <ProjectReference Include="..\BDStore.Infra\BDStore.Infra.csproj" />
   </ItemGroup>
 
 </Project>
