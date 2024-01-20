@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BDStore.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b52932d24195e9f0aeb9142b322fc424d2553daf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bee4c9afe62a7f6ed5ca7ffbdaf3e0bdd806383")]
 [assembly: System.Reflection.AssemblyProductAttribute("BDStore.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BDStore.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
