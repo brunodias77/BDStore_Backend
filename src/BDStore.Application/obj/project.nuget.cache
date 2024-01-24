@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/2GSxBNhGtqFoEc/mbgYhec+F3SZ+VkN96nlFFfVrOC0ZnvugOPaLSfeanNhvpKZT0DeqpuabsAjJW+TnWCfuQ==",
+  "dgSpecHash": "O6PcFZCJNDYPjce7BelkkOd5iV362/Un//5JzWShGWrVtfLZZilTpYajFOHt2qJ+6B520Rus30ZPiTWcQPEXVQ==",
   "success": true,
   "projectFilePath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/brunodias/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"

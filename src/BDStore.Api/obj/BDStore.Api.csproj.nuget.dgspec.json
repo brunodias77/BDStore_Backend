@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {}
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {}
   },
   "projects": {
-    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
+        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
         "projectName": "BDStore.Api",
-        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
+        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
         "packagesPath": "/Users/brunodias/.nuget/packages/",
-        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/obj/",
+        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brunodias/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
-                "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj"
+              "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
+                "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj"
               },
-              "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj": {
-                "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj"
+              "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj": {
+                "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
@@ -85,14 +89,14 @@
         }
       }
     },
-    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
+        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
         "projectName": "BDStore.Application",
-        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
+        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
         "packagesPath": "/Users/brunodias/.nuget/packages/",
-        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/obj/",
+        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brunodias/.nuget/NuGet/NuGet.Config"
@@ -107,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj": {
-                "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj"
+              "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj": {
+                "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj"
               }
             }
           }
@@ -123,6 +127,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
@@ -148,14 +156,14 @@
         }
       }
     },
-    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj": {
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj",
+        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj",
         "projectName": "BDStore.Domain",
-        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj",
+        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj",
         "packagesPath": "/Users/brunodias/.nuget/packages/",
-        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/",
+        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brunodias/.nuget/NuGet/NuGet.Config"
@@ -182,6 +190,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
@@ -207,14 +219,14 @@
         }
       }
     },
-    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj": {
+    "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj",
+        "projectUniqueName": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj",
         "projectName": "BDStore.Infra",
-        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj",
+        "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj",
         "packagesPath": "/Users/brunodias/.nuget/packages/",
-        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/obj/",
+        "outputPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brunodias/.nuget/NuGet/NuGet.Config"
@@ -229,8 +241,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
-                "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj"
+              "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
+                "projectPath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj"
               }
             }
           }
@@ -245,6 +257,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.1, )"

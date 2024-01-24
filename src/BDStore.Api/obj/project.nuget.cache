@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ime90O1qH348leLwcUDbhiXZrqQYFg1EdVmw/TmscxZAFBYFeBIMM9n7UkTBqBaVpzbZfYfxsQ1HppzuJDtCZg==",
+  "dgSpecHash": "d3Jtmc5k9578vZK7LPtK57XfjDcQ2xxYVb1vfBaXA11f/pZGMTH7erzd6iA8kC+Lz72KwLidQs8YKioruo6xIw==",
   "success": true,
-  "projectFilePath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
+  "projectFilePath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
   "expectedPackageFiles": [
     "/Users/brunodias/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
+    "/Users/brunodias/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.1/microsoft.aspnetcore.authentication.jwtbearer.8.0.1.nupkg.sha512",

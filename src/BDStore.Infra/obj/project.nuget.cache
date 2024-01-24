@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xk034329hLWWFc8HO3TdBfAct52tAYnusA2QFSUQgXHWxIH0GMhQsikf3IWi86oHtthna+7P4A4JEfLvJj0YVw==",
+  "dgSpecHash": "+DBPvfgB3T/oMhXKBdePuIuYt6lvNy1DbjsvNTWnYZ+Cisg4i/XUQ2hc+NZ8Wn3vPufvza0zGvDifVloMrTD/Q==",
   "success": true,
-  "projectFilePath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj",
+  "projectFilePath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj",
   "expectedPackageFiles": [
     "/Users/brunodias/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
+    "/Users/brunodias/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
