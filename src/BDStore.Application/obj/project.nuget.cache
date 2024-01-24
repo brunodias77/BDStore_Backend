@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O6PcFZCJNDYPjce7BelkkOd5iV362/Un//5JzWShGWrVtfLZZilTpYajFOHt2qJ+6B520Rus30ZPiTWcQPEXVQ==",
+  "dgSpecHash": "U+vBFndVtiQ67GRFcJqH//hJG1VTkYnMofBC2QzQ7H/YlH6h/qooh6Go1IO7axyGO5LIh9ExqKlc3SH6PdLBxQ==",
   "success": true,
-  "projectFilePath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
+  "projectFilePath": "/Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
   "expectedPackageFiles": [
     "/Users/brunodias/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/Users/brunodias/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
