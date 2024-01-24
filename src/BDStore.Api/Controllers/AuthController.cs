@@ -21,13 +21,19 @@ namespace BDStore.Api.Controllers
         [HttpPost("signup")]
         public async Task<IActionResult> Register([FromBody] RegisterUserCommand request)
         {
-            var result = await _mediator.Send(request);
             if (!ModelState.IsValid)
             {
                 var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
                 return BadRequest(new { Status = "Error", Message = "Erro de validação", Errors = errors });
             }
-            return new JsonResult(result);
+            var response = await _mediator.Send(request);
+            if (!response.Success)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new { Status = "Error", Message = "Não foi possível criar o usuário" });
+            }
+
+            return Ok(new { Status = "Success", Message = "Usuário criado com sucesso!", Token = response.Data });
+
         }
 
     }
