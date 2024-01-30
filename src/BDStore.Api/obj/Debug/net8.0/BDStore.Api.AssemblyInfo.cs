@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BDStore.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b796b00d9879088c17a181d6127fe20d806ea9f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de9f07d019841e48e8e46f9e7efc58513178751f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BDStore.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BDStore.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
