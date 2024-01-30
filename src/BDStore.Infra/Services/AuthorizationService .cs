@@ -17,12 +17,14 @@ namespace BDStore.Infra.Services
         readonly SignInManager<IdentityUser> _signInManager;
         private readonly IConfiguration _configuration;
 
-        public AuthorizationService(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IConfiguration configuration)
+        public AuthorizationService(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager,
+            IConfiguration configuration)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _configuration = configuration;
         }
+
         public async Task<ApiResponse<TokenResponse>> Login(string username, string password)
         {
             var user = await _userManager.FindByEmailAsync(username);
@@ -31,7 +33,9 @@ namespace BDStore.Infra.Services
             if (result.Succeeded)
             {
                 var token = CreateToken(user);
-                return new ApiResponse<TokenResponse>(new TokenResponse("meuToken", DateTime.UtcNow.AddDays(1), "nomeDeUsuario"), "Usuario fez login com sucesso");
+                return new ApiResponse<TokenResponse>(
+                    new TokenResponse("meuToken", DateTime.UtcNow.AddDays(1), "nomeDeUsuario"),
+                    "Usuario fez login com sucesso");
             }
             else
             {
@@ -53,14 +57,10 @@ namespace BDStore.Infra.Services
 
             if (result.Succeeded)
             {
-                // Aqui, você pode enviar um email de confirmação ou realizar outras ações necessárias após o registro.
-                // Por exemplo, adicionar roles ao usuário, se necessário.
-
                 return new ApiResponse<string>("Usuário registrado com sucesso.");
             }
             else
             {
-                // Aqui, lidamos com os erros que podem ocorrer durante o registro
                 var errors = result.Errors.Select(e => e.Description);
                 return new ApiResponse<string>("Erro ao registrar o usuário: " + string.Join(", ", errors));
             }
@@ -75,7 +75,8 @@ namespace BDStore.Infra.Services
                 new Claim(ClaimTypes.Name, user.UserName!)
             };
 
-            SymmetricSecurityKey key = new(Encoding.UTF8.GetBytes(_configuration.GetSection("JwtSettings:Secret").Value));
+            SymmetricSecurityKey key =
+                new(Encoding.UTF8.GetBytes(_configuration.GetSection("JwtSettings:Secret").Value));
             SigningCredentials creds = new(key, SecurityAlgorithms.HmacSha512Signature);
 
             SecurityTokenDescriptor tokenDescriptor = new()

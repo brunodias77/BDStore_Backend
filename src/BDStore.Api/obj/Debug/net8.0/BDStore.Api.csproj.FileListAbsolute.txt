@@ -177,3 +177,4 @@
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/obj/Debug/net8.0/BDStore.Api.genruntimeconfig.cache
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/obj/Debug/net8.0/ref/BDStore.Api.dll
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Api/bin/Debug/net8.0/FluentValidation.dll
+/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/bin/Debug/net8.0/FluentValidation.dll

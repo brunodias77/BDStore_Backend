@@ -1,3 +1,4 @@
+using BDStore.Application.Users.LoginUser;
 using BDStore.Application.Users.RegisterUser;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -10,12 +11,28 @@ namespace BDStore.Api.Controllers
     [Route("api/users")]
     public class AuthController : MainController
     {
-
         private readonly IMediator _mediator;
 
         public AuthController(IMediator mediator)
         {
             _mediator = mediator;
+        }
+
+        [AllowAnonymous]
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginUserCommand request)
+        {
+            var response = await _mediator.Send(new LoginUserCommand(request.UserName, request.Password));
+
+            // Verifique se a autenticação foi bem-sucedida
+            if (!response.Success)
+            {
+                // Pode-se incluir a mensagem de erro da resposta, se desejado
+                return Unauthorized(response.Message);
+            }
+
+            // Em caso de sucesso, retorne o token
+            return Ok(response.Data.Token);
         }
 
         [HttpPost("signup")]
@@ -26,16 +43,15 @@ namespace BDStore.Api.Controllers
                 var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
                 return BadRequest(new { Status = "Error", Message = "Erro de validação", Errors = errors });
             }
+
             var response = await _mediator.Send(request);
             if (!response.Success)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, new { Status = "Error", Message = "Não foi possível criar o usuário" });
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    new { Status = "Error", Message = "Não foi possível criar o usuário" });
             }
 
             return Ok(new { Status = "Success", Message = "Usuário criado com sucesso!", Token = response.Data });
-
         }
-
     }
-
 }

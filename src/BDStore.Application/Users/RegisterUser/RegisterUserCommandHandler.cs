@@ -1,5 +1,7 @@
 using BDStore.Application.Common.Interfaces;
 using BDStore.Application.Response;
+using BDStore.Domain.Users;
+using BDStore.Domain.Users.ValueObjects;
 using MediatR;
 
 
@@ -14,12 +16,12 @@ namespace BDStore.Application.Users.RegisterUser
             _authorizationService = authorizationService;
         }
 
-        public Task<ApiResponse<string>> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResponse<string>> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
-            Console.WriteLine("cheguei aqui");
-            Console.WriteLine(request.FirstName);
-            // Implemente a lógica aqui e retorne um valor
-            throw new NotImplementedException();
+            var user = User.CreateRegistered(new FirstName(request.FirstName), new LastName(request.LastName),
+                new Email(request.Email), request.Password);
+            var response = await _authorizationService.Register(user);
+            return response;
         }
     }
 }
