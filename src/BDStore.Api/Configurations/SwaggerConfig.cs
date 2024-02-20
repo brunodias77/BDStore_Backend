@@ -11,8 +11,8 @@ namespace BDStore.Api.Configurations
             {
                 config.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Servico de reservas",
-                    Description = "Esta API faz parte de meus estudos para me tornar um programador back-end",
+                    Title = "BDStore",
+                    Description = "Essa api de um e-commercee faz parte de meus estudos para me tornar um programador back-end",
                     Contact = new OpenApiContact
                     {
                         Name = "Bruno Dias",

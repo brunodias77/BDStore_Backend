@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YaI9+x+T0uNz5r+h6zh6fJjJD+RZCCz3GO/Ly77fNah0AL6PucAgMa7wJvj5Awo3tcT7pSwHl9TAda9KJ89mRQ==",
+  "dgSpecHash": "qMQgBrqGevReKNPY1QRalpCS5JLM8MACO1RrZkw2krlzTRCTizoPP5lZbBTkQxp/C6Qv4lJNZO0DnFZdyJ6UwA==",
   "success": true,
   "projectFilePath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
   "expectedPackageFiles": [

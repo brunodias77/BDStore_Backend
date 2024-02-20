@@ -13,8 +13,8 @@ namespace BDStore.Infra.Services
 {
     public class AuthorizationService : IAuthorizationService
     {
-        readonly UserManager<IdentityUser> _userManager;
-        readonly SignInManager<IdentityUser> _signInManager;
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
         private readonly IConfiguration _configuration;
 
         public AuthorizationService(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager,
@@ -28,7 +28,7 @@ namespace BDStore.Infra.Services
         public async Task<ApiResponse<TokenResponse>> Login(string username, string password)
         {
             var user = await _userManager.FindByEmailAsync(username);
-            var result = await _signInManager.PasswordSignInAsync(username, password, false, lockoutOnFailure: false);
+            var result = await _signInManager.PasswordSignInAsync(username, password, false, lockoutOnFailure: true);
 
             if (result.Succeeded)
             {
