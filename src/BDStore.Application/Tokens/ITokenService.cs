@@ -4,5 +4,5 @@ namespace BDStore.Application.Tokens;
 
 public interface ITokenService
 {
-    string GenerateToken(IdentityUser user);
+    Task<string> GenerateToken(IdentityUser user);
 }
