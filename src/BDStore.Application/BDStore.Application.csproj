@@ -15,4 +15,10 @@
     <ProjectReference Include="..\BDStore.Domain\BDStore.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Identity.Stores">
+      <HintPath>..\..\..\..\..\..\..\..\usr\lib\dotnet\shared\Microsoft.AspNetCore.App\8.0.2\Microsoft.Extensions.Identity.Stores.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
