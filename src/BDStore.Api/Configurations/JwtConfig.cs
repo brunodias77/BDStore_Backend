@@ -13,11 +13,6 @@ namespace BDStore.Api.Configurations
             services.Configure<AppSettings>(jwtSettings);
             var appSettings = jwtSettings.Get<AppSettings>();
             var key = Encoding.ASCII.GetBytes(appSettings.Secret);
-            // if (key.Length < 64)
-            // {
-            //     throw new Exception(
-            //         "A chave JWT deve ter pelo menos 64 bytes de comprimento para ser compatível com HMAC-SHA512.");
-            // }
             services.AddAuthentication(opt =>
                 {
                     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

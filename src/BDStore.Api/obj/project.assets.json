@@ -3424,11 +3424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
+      "projectUniqueName": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
       "projectName": "BDStore.Api",
-      "projectPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
+      "projectPath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Api/BDStore.Api.csproj",
       "packagesPath": "/home/brunodias/.nuget/packages/",
-      "outputPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Api/obj/",
+      "outputPath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/brunodias/.nuget/NuGet/NuGet.Config"
@@ -3443,11 +3443,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
-              "projectPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj"
+            "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj": {
+              "projectPath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj"
             },
-            "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj": {
-              "projectPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj"
+            "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj": {
+              "projectPath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj"
             }
           }
         }

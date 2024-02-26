@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t73COn3VV1EpWqxbWI/hInFvf3zOHFTsKhi2sp+7g+6GO2DfnpkEPNtqtkycGBXFON7FwbQfSO4wFEdqdNRPyA==",
+  "dgSpecHash": "KsjSz1hcewrZQ1dn3lvgXn4bM+IheFNCUIjWCPtW3YsBPNSXAmUswCPeHNEuJ8vrAjyg9/celZz62TOQtoINCw==",
   "success": true,
-  "projectFilePath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj",
+  "projectFilePath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Infra/BDStore.Infra.csproj",
   "expectedPackageFiles": [
     "/home/brunodias/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/brunodias/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

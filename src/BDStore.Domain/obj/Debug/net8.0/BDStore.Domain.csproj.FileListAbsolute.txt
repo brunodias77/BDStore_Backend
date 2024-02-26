@@ -24,3 +24,16 @@
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.pdb
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/bin/Debug/net8.0/BDStore.Domain.deps.json
 /Users/brunodias/Documents/Programação/Projetos dotnet/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/ref/BDStore.Domain.dll
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/bin/Debug/net8.0/BDStore.Domain.deps.json
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/bin/Debug/net8.0/BDStore.Domain.dll
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/bin/Debug/net8.0/BDStore.Domain.pdb
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.csproj.AssemblyReference.cache
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.AssemblyInfoInputs.cache
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.AssemblyInfo.cs
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.csproj.CoreCompileInputs.cache
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.sourcelink.json
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.dll
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/refint/BDStore.Domain.dll
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/BDStore.Domain.pdb
+/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/obj/Debug/net8.0/ref/BDStore.Domain.dll

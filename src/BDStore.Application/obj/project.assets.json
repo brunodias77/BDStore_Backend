@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
+      "projectUniqueName": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
       "projectName": "BDStore.Application",
-      "projectPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
+      "projectPath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
       "packagesPath": "/home/brunodias/.nuget/packages/",
-      "outputPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Application/obj/",
+      "outputPath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/brunodias/.nuget/NuGet/NuGet.Config"
@@ -203,8 +203,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj": {
-              "projectPath": "/home/brunodias/Documentos/Programacao/C#/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj"
+            "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj": {
+              "projectPath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Domain/BDStore.Domain.csproj"
             }
           }
         }
