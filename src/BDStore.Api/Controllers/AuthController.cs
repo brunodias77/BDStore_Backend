@@ -29,7 +29,7 @@ namespace BDStore.Api.Controllers
                 return Unauthorized(response.Message);
             }
 
-            return Ok(response.Data.Token);
+            return Ok(response.Data);
         }
 
         [HttpPost("signup")]

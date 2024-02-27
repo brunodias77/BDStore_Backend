@@ -1,6 +1,5 @@
 using BDStore.Application.Common.Interfaces;
 using BDStore.Application.Response;
-using BDStore.Application.Tokens;
 using BDStore.Domain.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -32,20 +31,19 @@ namespace BDStore.Infra.Services
             _appSettings = appSettings.Value;
         }
 
-        public async Task<ApiResponse<TokenResponse>> Login(string username, string password)
+        public async Task<ApiResponse<UserResponseLogin>> Login(string username, string password)
         {
             var user = await _userManager.FindByEmailAsync(username);
             var result = await _signInManager.PasswordSignInAsync(username, password, false, lockoutOnFailure: true);
 
             if (result.Succeeded)
             {
-                var token = GenerateToken(user);
-                return new ApiResponse<TokenResponse>(
-                    new TokenResponse("meuToken", DateTime.UtcNow.AddDays(1), "nomeDeUsuario"),
-                    "Usuario fez login com sucesso");
+                var token = await GenerateToken(user);
+                return new ApiResponse<UserResponseLogin>(token, "Usuário logado com sucesso");
+
             }
 
-            return new ApiResponse<TokenResponse>("Erro ao fazer login do usuario");
+            return new ApiResponse<UserResponseLogin>("Erro ao fazer login do usuario");
         }
 
         public async Task<ApiResponse<string>> Register(User user)
@@ -70,7 +68,7 @@ namespace BDStore.Infra.Services
 
         public async Task<UserResponseLogin> GenerateToken(IdentityUser user)
         {
-              
+
             var claims = await _userManager.GetClaimsAsync(user);
             var userRoles = await _userManager.GetRolesAsync(user);
             claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
