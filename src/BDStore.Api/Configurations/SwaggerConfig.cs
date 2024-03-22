@@ -1,4 +1,3 @@
-
 using Microsoft.OpenApi.Models;
 
 namespace BDStore.Api.Configurations
@@ -12,7 +11,8 @@ namespace BDStore.Api.Configurations
                 config.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Title = "BDStore",
-                    Description = "Essa api de um e-commercee faz parte de meus estudos para me tornar um programador back-end",
+                    Description =
+                        "Essa api de um e-commercee faz parte de meus estudos para me tornar um programador back-end",
                     Contact = new OpenApiContact
                     {
                         Name = "Bruno Dias",
@@ -24,9 +24,30 @@ namespace BDStore.Api.Configurations
                         Url = new Uri("https://opensource.org/licenses/MIT")
                     }
                 });
-
+                config.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "Insira o tokenk JWT desta maneira: Bearer {seu token}",
+                    Name = "Authorization",
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey
+                });
+                config.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] { }
+                    }
+                });
             });
-
         }
 
         public static WebApplication UseSwaggerConfiguration(this WebApplication app)
@@ -34,10 +55,7 @@ namespace BDStore.Api.Configurations
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI(config =>
-                {
-                    config.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-                });
+                app.UseSwaggerUI(config => { config.SwaggerEndpoint("/swagger/v1/swagger.json", "v1"); });
             }
 
             return app;

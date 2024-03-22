@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BDStore.Application.Common.Interfaces;
+using BDStore.Domain.Products;
 using BDStore.Infra.Data;
+using BDStore.Infra.Repositories;
 using BDStore.Infra.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -18,10 +20,13 @@ namespace BDStore.Infra.Configurations
         {
             if (services is null) throw new ArgumentNullException(nameof(services));
             services.AddTransient<IAuthorizationService, AuthorizationService>();
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             services.AddIdentity<IdentityUser, IdentityRole>()
-            .AddEntityFrameworkStores<ApplicationDbContext>()
-            .AddDefaultTokenProviders();
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+            services.AddScoped<ApplicationDbContext>();
+            services.AddScoped<IProductRepository, ProductRepository>();
             return services;
         }
     }
