@@ -27,7 +27,7 @@ public class CatalogController : MainController
 
     [ClaimsAuthorize("Catalogo", "Ler")]
     [HttpGet("product/{id}")]
-    public async Task<Product> ProductDetail(Guid id)
+    public async Task<Product> ProductDetail([FromBody] Guid id)
     {
         Console.WriteLine($"Aqui no CatalogController com o id: {id}");
         return await _productRepository.GetById(id);
