@@ -21,4 +21,20 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Abstractions\Events\**" />
+    <Compile Remove="Abstractions\Messages\**" />
+    <Compile Remove="Abstractions\Mediator\MediatorHandle.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Abstractions\Events\**" />
+    <EmbeddedResource Remove="Abstractions\Messages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Abstractions\Events\**" />
+    <None Remove="Abstractions\Messages\**" />
+  </ItemGroup>
+
 </Project>

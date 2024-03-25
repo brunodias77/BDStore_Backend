@@ -10,6 +10,7 @@ builder.Services.ConfigureJWT(builder.Configuration);
 builder.Services.AddSwaggerConfiguration();
 builder.Services.AddInfraConfig(builder.Configuration);
 // builder.Services.AddDataDependencyInjection(builder.Configuration);
+//builder.Services.AddMediatR(typeof(Startup));
 builder.Services.AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(RegisterUserCommandHandler).GetTypeInfo().Assembly));
 
 

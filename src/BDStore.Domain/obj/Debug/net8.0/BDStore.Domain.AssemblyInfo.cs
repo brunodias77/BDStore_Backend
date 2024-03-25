@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BDStore.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dba0c3f9f0853e7a64dce0f038d212718e0a9ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+857c41d8c1713fdfcc49d4035cf9c9e538ac3cfc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BDStore.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BDStore.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

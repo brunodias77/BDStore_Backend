@@ -1,4 +1,5 @@
 using BDStore.Domain.Abstraction;
+using BDStore.Domain.Clients;
 using BDStore.Domain.Products;
 using BDStore.Domain.Users;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -8,6 +9,8 @@ namespace BDStore.Infra.Data
 {
     public class ApplicationDbContext : IdentityDbContext, IUnitOfWork
     {
+        // private readonly IMediatorHandler _mediatorHandler;
+
         public ApplicationDbContext()
         {
         }
@@ -18,6 +21,8 @@ namespace BDStore.Infra.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<Address> Addresses { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -33,7 +38,13 @@ namespace BDStore.Infra.Data
             foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(
                          e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
                 modelBuilder.Ignore<IDomainEvent>();
+
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes()
+                         .SelectMany(e => e.GetForeignKeys()))
+                relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
+
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+
             base.OnModelCreating(modelBuilder);
         }
 

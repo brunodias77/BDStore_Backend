@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BDStore.Api.Controllers;
 
 [Authorize]
-[Route("catalog")]
+[Route("api/catalog")]
 public class CatalogController : MainController
 {
     private readonly IProductRepository _productRepository;
@@ -27,7 +27,7 @@ public class CatalogController : MainController
 
     [ClaimsAuthorize("Catalogo", "Ler")]
     [HttpGet("product/{id}")]
-    public async Task<Product> ProductDetail([FromBody] Guid id)
+    public async Task<Product> ProductDetail([FromRoute] Guid id)
     {
         Console.WriteLine($"Aqui no CatalogController com o id: {id}");
         return await _productRepository.GetById(id);
