@@ -34,6 +34,7 @@ public class RegisterClientCommandHandler : CommandHandler, IRequestHandler<Regi
         _clientRepository.Add(client);
         // Lançar um evento cliente OK !
         client.AddEvent(new ClientRegistedEvent(message.Id, message.Name, message.Email, message.Cpf));
+
         return await PersistData(_clientRepository.UnitOfWork);
     }
 }

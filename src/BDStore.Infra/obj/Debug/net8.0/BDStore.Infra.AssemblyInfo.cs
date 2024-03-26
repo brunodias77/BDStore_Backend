@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BDStore.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c386d1fb41f55d45c65cbb44d257593618eb6432")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa5ba8f632b2878a0ebd7545539af281dde35af2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BDStore.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BDStore.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

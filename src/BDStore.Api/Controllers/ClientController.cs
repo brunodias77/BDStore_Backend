@@ -17,7 +17,8 @@ public class ClientController : MainController
     public async Task<IActionResult> Index()
     {
         var result = await _mediatorHandler.SendCommand(new RegisterClientCommand(Guid.NewGuid(), "Bruno Henrique Dias",
-            "henrique@teste.com", "91532363001"));
+            "henrique@teste.com", "94785613084"));
+        Console.WriteLine(result);
         return CustomResponse(result);
     }
 }
