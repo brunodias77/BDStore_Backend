@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FbWuz+4weDX6b21EheNwuEKrcXiI7BbXUm8PuOf7MsMNgXw7V9JEh1FPqYnMjAdIQI4rCVfxWtjmffXz0KVoqg==",
+  "dgSpecHash": "OZ5uQpNYRMibsxLgjUGxz+Q/7uTovEdTYJsnM8GGXAXSPWIEB/9q3KtPs2Xkz1mES2pvkbWbBGuqrcQdr2l5CQ==",
   "success": true,
-  "projectFilePath": "/home/brunodias/Documentos/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
+  "projectFilePath": "/Users/brunodias/Documents/Programacao/Codigos/C#/BDStore_Backend/src/BDStore.Application/BDStore.Application.csproj",
   "expectedPackageFiles": [
-    "/home/brunodias/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
-    "/home/brunodias/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
-    "/home/brunodias/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/home/brunodias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "/Users/brunodias/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/Users/brunodias/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/brunodias/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/brunodias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

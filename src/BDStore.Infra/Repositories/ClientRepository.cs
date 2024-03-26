@@ -8,13 +8,13 @@ namespace BDStore.Infra.Repositories;
 public class ClientRepository : IClientRepository
 {
     private readonly ApplicationDbContext _context;
+    public IUnitOfWork UnitOfWork => _context;
 
     public ClientRepository(ApplicationDbContext context)
     {
         _context = context;
     }
 
-    public IUnitOfWork UnitOfWork => _context;
 
     public void Add(Client client)
     {
@@ -37,11 +37,11 @@ public class ClientRepository : IClientRepository
 
     public void Dispose()
     {
-        throw new NotImplementedException();
+        _context?.Dispose();
     }
 
     public Task<Client> GetByCpf(string cpf)
     {
-        return _context.Clients.FirstOrDefaultAsync(c => c.Cpf.Number == cpf);
+        return _context.Clients.FirstOrDefaultAsync(customer => customer.Cpf.Number == cpf);
     }
 }

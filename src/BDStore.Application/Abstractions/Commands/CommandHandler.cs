@@ -1,4 +1,3 @@
-
 using FluentValidation.Results;
 
 namespace BDStore.Application.Abstractions.Commands
@@ -19,7 +18,12 @@ namespace BDStore.Application.Abstractions.Commands
 
         protected async Task<ValidationResult> PersistData(Domain.Abstraction.IUnitOfWork uow)
         {
-            if (!await uow.Commit()) AddError("Houve um erro ao persistir os dados");
+            var result = await uow.Commit();
+            Console.WriteLine(result);
+            if (!result)
+            {
+                AddError("Houve um erro ao persistir os dados");
+            }
 
             return ValidationResult;
         }

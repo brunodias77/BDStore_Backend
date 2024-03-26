@@ -17,8 +17,10 @@ namespace BDStore.Infra.Data
         {
         }
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, IMediatorHandler mediatorHandler) :
+            base(options)
         {
+            _mediatorHandler = mediatorHandler;
         }
 
         public DbSet<User> Users { get; set; }
@@ -55,9 +57,20 @@ namespace BDStore.Infra.Data
 
         public async Task<bool> Commit()
         {
-            var sucess = await base.SaveChangesAsync() > 0;
-            if (sucess) await _mediatorHandler.PublishEvents(this);
-            return sucess;
+            try
+            {
+                var result = await base.SaveChangesAsync();
+                if (result <= 0) return false;
+                // Sucesso - pelo menos uma entidade foi modificada
+                await _mediatorHandler.PublishEvents(this);
+                return true;
+            }
+            catch (DbUpdateException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            return false;
         }
     }
 
