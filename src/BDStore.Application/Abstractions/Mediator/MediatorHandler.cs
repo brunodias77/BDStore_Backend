@@ -1,3 +1,4 @@
+using BDStore.Application.Abstractions.Commands;
 using BDStore.Domain.Abstraction;
 using FluentValidation.Results;
 using MediatR;

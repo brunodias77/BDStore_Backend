@@ -12,7 +12,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Clients\ValueObjects\" />
+    <Compile Remove="Clients\ValueObjects\**" />
+    <Compile Remove="Abstraction\Command.cs" />
+    <Compile Remove="Abstraction\CommandHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Clients\ValueObjects\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Clients\ValueObjects\**" />
   </ItemGroup>
 
 </Project>
